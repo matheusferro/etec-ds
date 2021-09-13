@@ -20,8 +20,4 @@ public class ClienteController {
         return clienteRequest.getNome()+" Cadastrado!";
     }
 
-    @GetMapping
-    List<ClienteEntity> listaCliente(){
-
-    }
 }
